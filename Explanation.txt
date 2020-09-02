@@ -1,0 +1,55 @@
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+For example:
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB 
+    ...
+
+Input Description:
+N a integer as input. (1<N<1000)
+
+Output Description:
+Print the corresponding column title of excel sheet.
+
+Sample Input:
+27
+
+Sample Output:
+AA
+
+Explanation:
+In excel coloumn sheet, the 27th coloumn is AA.
+
+Sample Input:
+2
+
+Sample Output:
+B
+
+Sample Input:
+32
+
+Sample Output:
+AF
+
+Sample Input:
+82
+
+Sample Output:
+CD
+
+Sample Input:
+190
+
+Sample Output:
+GH
+
+Sample Input:
+513
+
+Sample Output:
+SS
